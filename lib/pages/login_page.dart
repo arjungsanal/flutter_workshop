@@ -63,7 +63,7 @@ class LoginPage extends StatelessWidget {
                 height: 30,
               ),
               ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {Navigator.pop(context);},
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
